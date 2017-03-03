@@ -14,7 +14,7 @@ main_dir = '/Users/WhoaaaItsDavid/Desktop/Springboard/Bike_Sharing'
 os.chdir(main_dir)
 
 # Import 4th version of the data
-main_df = pd.read_csv('full_subset_data - V4.csv') #Ryan, you want to use '31116_subset_data.csv'
+main_df = pd.read_csv('full_subset_data - V4.csv')
 main_df.drop('Unnamed: 0', axis=1, inplace=True)
 
 # Mask the data for start or end stations that match #31116
